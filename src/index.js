@@ -4,9 +4,3 @@ import App from './App'
 import './styles.css'
 
 ReactDOM.render(<App />, document.getElementById('app'))
-
-if (module.hot) {
-  module.hot.accept('./App', () => {
-    ReactDOM.render(<App />, document.getElementById('app'))
-  })
-}
