@@ -1,7 +1,7 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { hot } from 'react-hot-loader'
 
-class App extends React.Component {
+class App extends Component {
   state = {
     count: 0
   }
