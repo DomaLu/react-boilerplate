@@ -14,6 +14,7 @@ class App extends Component {
     this.setState(state => ({ count: state.count - 1 }))
   }
   render() {
+    // throw new Error('Boom!')
     const { count } = this.state
     return (
       <div>
